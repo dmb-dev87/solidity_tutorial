@@ -22,7 +22,7 @@
 
 - Contract Address
 
-  https://rinkeby.etherscan.io/address/0x2458C656619c7afD61886E2E4b2b27BFe23Ea962
+  https://rinkeby.etherscan.io/address/0xBB577D04d4406f87291a2acC4B41440d6014919E
   
 ### Implementing Uniswap functions using Solidity
 

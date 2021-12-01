@@ -54,26 +54,26 @@ contract MinamiToken is ERC20, AccessControl {
     super._burn(account, amount);
   }
 
-  function transfer(address recipient, uint256 amount) public virtual override onlyAdmin setPaused returns (bool) {
+  function transfer(address recipient, uint256 amount) public virtual override returns (bool) {
     super.transfer(recipient, amount);
     return true;    
   }
 
-  function allowance(address owner, address spender) public view virtual override setPaused returns (uint256) {
+  function allowance(address owner, address spender) public view virtual override returns (uint256) {
     return super.allowance(owner, spender);
   }
 
-  function approve(address spender, uint256 amount) public virtual override onlyAdmin setPaused returns (bool) {
+  function approve(address spender, uint256 amount) public virtual override returns (bool) {
     super.approve(spender, amount);
     return true;
   }
 
-  function increaseAllowance(address spender, uint256 addedValue) public virtual override onlyAdmin returns (bool) {
+  function increaseAllowance(address spender, uint256 addedValue) public virtual override returns (bool) {
     super.increaseAllowance(spender, addedValue);
     return true;
   }
 
-  function decreaseAllowance(address spender, uint256 subtractedValue) public virtual override onlyAdmin returns (bool) {
+  function decreaseAllowance(address spender, uint256 subtractedValue) public virtual override returns (bool) {
     super.decreaseAllowance(spender, subtractedValue);
     return true;
   }
