@@ -38,3 +38,13 @@
 
   https://rinkeby.etherscan.io/address/0xc1ef8eaFb3d820676855A1a652E7D789D62382f2
   
+### Create and deploy a Solidity contract to Avalanche with Hardhat
+
+- Project
+
+  avalanche-contract
+
+- Tutorial URL
+
+  https://medium.com/@a.a.lechner/create-and-deploy-a-solidity-contract-to-avalanche-with-hardhat-2c5cd5e4fa93
+
