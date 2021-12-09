@@ -60,7 +60,7 @@
 
 - Contract Address
 
-  https://rinkeby.etherscan.io/address/0x301d3c14376df5a356Ec9c40F82188Fb19728b77
+  https://rinkeby.etherscan.io/address/0x25480521E33a75dB1298d579B0A7ED4ceD032CeD
 
 - Frontend Project
 

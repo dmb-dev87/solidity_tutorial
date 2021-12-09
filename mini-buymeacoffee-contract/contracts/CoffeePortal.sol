@@ -35,16 +35,16 @@ contract CoffeePortal {
     return totalCoffee;
   }
 
-  function buyCoffee(string memory _message, string memory _name, uint256 _payAmount) public payable {
+  function buyCoffee(string memory _message, string memory _name) public payable {
     uint256 cost = 0.001 ether;
-    require(_payAmount <= cost, "Insufficient Ether provided");
+    require(msg.value >= cost, "Insufficient Ether provided");
 
     totalCoffee += 1;
     console.log("%s has just sent a coffee!", msg.sender);
 
     coffee.push(Coffee(msg.sender, _message, _name, block.timestamp));
 
-    (bool success, ) = owner.call{value: _payAmount}("");
+    (bool success, ) = owner.call{value: msg.value}("");
     require(success, "Failed to send money");
 
     emit NewCoffee(msg.sender, block.timestamp, _message, _name);
@@ -56,7 +56,7 @@ contract CoffeePortal {
     uint balance = address(this).balance;
     require(balance > 0, "No ether left to withdraw");
 
-    (bool success, ) = (msg.sender).call{value: balance}("");
+    (bool success, ) = owner.call{value: balance}("");
     require(success, "Transfer failed.");
   }
 }
