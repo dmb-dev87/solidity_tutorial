@@ -48,3 +48,20 @@
 
   https://medium.com/@a.a.lechner/create-and-deploy-a-solidity-contract-to-avalanche-with-hardhat-2c5cd5e4fa93
 
+### Build a Mini Buymeacoffee dApp Using Solidity + Ethereum Smart Contract + ReactJs + TailwindCSS
+
+- Project
+
+  mini-buymeacoffee-contract
+
+- Tutorial URL
+
+  https://olanetsoft.medium.com/build-a-mini-buymeacoffee-dapp-using-solidity-ethereum-smart-contract-reactjs-tailwindcss-33df74345a04
+
+- Contract Address
+
+  https://rinkeby.etherscan.io/address/0x301d3c14376df5a356Ec9c40F82188Fb19728b77
+
+- Frontend Project
+
+  https://github.com/dmb-dev87/react.js_tutorial/tree/master/mini-buymeacoffee
