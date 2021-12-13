@@ -65,3 +65,13 @@
 - Frontend Project
 
   https://github.com/dmb-dev87/react.js_tutorial/tree/master/mini-buymeacoffee
+
+### Truffle Suite tutorial: How to develop Ethereum smart contracts
+
+- Project
+
+  truffle-react
+
+- Tutorial URL
+
+  https://blog.logrocket.com/truffle-suite-tutorial-develop-ethereum-smart-contracts/
