@@ -75,3 +75,13 @@
 - Tutorial URL
 
   https://blog.logrocket.com/truffle-suite-tutorial-develop-ethereum-smart-contracts/
+
+### Programming DeFi: Uniswap. Part 1
+
+- Project
+
+  zuniswap
+
+- Tutorial URL
+
+  https://jeiwan.net/posts/programming-defi-uniswap-1/
