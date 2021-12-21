@@ -89,3 +89,23 @@
   https://medium.com/coinmonks/programming-defi-uniswap-part-2-13a6428bf892
   
   https://medium.com/coinmonks/programming-defi-uniswap-part-3-791005c6238e
+
+### Building a Decentralized Application with BEP-20 contract in Solidity
+
+- Project
+
+  dev-token
+
+- Tutorial URL
+
+  https://itnext.io/building-a-decentralized-application-with-bep-20-contract-in-solidity-d2c066447aa6
+
+### Creating a Inheritable Staking contract in Solidity
+
+- Project
+
+  dev-token
+
+- Tutorial URL
+
+  https://itnext.io/creating-a-inheritable-staking-contract-in-solidity-7804ae2d7a32
