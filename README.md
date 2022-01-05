@@ -109,3 +109,19 @@
 - Tutorial URL
 
   https://itnext.io/creating-a-inheritable-staking-contract-in-solidity-7804ae2d7a32
+
+### Smart Contract Development with Solidity
+
+- Project
+
+  base-contracts
+
+- Tutorial URL
+
+  https://medium.com/@lianxiongdi/smart-contract-development-with-solidity-1-hello-world-d110dea07ec2
+
+  https://medium.com/@lianxiongdi/smart-contract-development-with-solidity-2-calculator-b0f5c02cb641
+
+  https://medium.com/@lianxiongdi/smart-contract-development-with-solidity-3-number-guessing-game-b3e4c3f1e269
+
+  https://medium.com/@lianxiongdi/smart-contract-development-with-solidity-4-bank-943018a9992c
