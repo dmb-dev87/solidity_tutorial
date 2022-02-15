@@ -16,10 +16,18 @@ async function main() {
   // We get the contract to deploy
   const SmartChef = await hre.ethers.getContractFactory("SmartChefInitializable");
   const smartChef = await SmartChef.deploy();
-
   await smartChef.deployed();
-
   console.log("SmartChef deployed to:", smartChef.address);
+
+  const StakedToken = await hre.ethers.getContractFactory("Token");
+  const stakedToken = await StakedToken.deploy("Staked Test Token", "STT");
+  await stakedToken.deployed();
+  console.log("StakedToken deployed to:", stakedToken.address);
+
+  const RewardToken = await hre.ethers.getContractFactory("Token");
+  const rewardToken = await RewardToken.deploy("Reward Test Token", "RTT");
+  await rewardToken.deployed();
+  console.log("RewardToken deployed to:", rewardToken.address);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
