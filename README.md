@@ -125,3 +125,13 @@
   https://medium.com/@lianxiongdi/smart-contract-development-with-solidity-3-number-guessing-game-b3e4c3f1e269
 
   https://medium.com/@lianxiongdi/smart-contract-development-with-solidity-4-bank-943018a9992c
+
+### NFT Staking Smart Contract
+
+- Project
+
+  nft-staking
+
+- Tutorial URL
+
+  https://coinsbench.com/nft-staking-swith-solidity-d99f3281c5a8
